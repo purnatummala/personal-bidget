@@ -3,29 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Budget</title>
+
+
+    <title>Personal Budget-Budget Management APP</title> <!-- SEO change1 title updated-->
+    <meta name="description" content="Manage your personal budget effectively with this free APP.">  <!-- SEO change2 added meta description -->
+    <meta name="keywords" content="personal budget, budget management, financial planning">  <!-- SEO change3 added meta keywords for optimization-->
+
     <link rel="stylesheet" href="/reset.css">
     <link rel="stylesheet" href="/main.css">
 </head>
 <body>
 
-    <div class="menu">
+    <nav class="menu" role="navigation" aria-label="Main Navigation">  <!-- 1st semantic change <div> changed to <nav> --> <!-- A11y change1 added role-->
         <ul>
-            <li><a href="/">Homepage</a></li>
+            <li><a href="/index.html">Homepage</a></li>
             <li><a href="/about.html">About</a></li>
             <li><a href="/login.html">Login</a></li>
-            <li><a href="https://google.com">Google</a></li>
+            <li><a href="https://google.com" rel="noopener noreference" target="_blank">Google</a></li> <!-- A11y change2 added rel and target -->
         </ul>
-    </div>
+    </nav>
 
-    <div class="hero">
+    <header class="hero"> <!--2nd semantic change  <div> changed to <header> -->
         <h1>Personal Budget</h1>
         <h2>A personal-budget management app</h2>
-    </div>
+    </header>
 
-    <div class="container center">
+    <section class="container center">  <!-- 3rd semantic change <div> changed to <section> -->
 
-        <div class="page-area">
+        <article class="page-area"> <!-- 4th semantic change <div> changed to <article> -->
 
             <div class="text-box">
                 <h1>Stay on track</h1>
@@ -91,15 +96,23 @@
                 </p>
             </div>
 
-        </div>
-
-    </div>
-
-    <div class="bottom">
+    <footer class="bottom">
         <div class="center">
-            All rights reserved &copy; Fabio Nolasco
-        </div>
-    </div>
+             <!-- SEO change4 -->
+            All rights reserved &copy; <!-- A11y Change3 Added alt attribute to the image-->
+            <img src="/IMG1.png" alt="Personal Budget App Background Image">
+        Siddhartha Komakula 2023   </div>
+    </footer>
+     
+ <!-- A11y Change2 added Skip to Content Link -->
+            <main id="main-content" tabindex="-1">
+                <!-- Main content -->
+            </main>
 
+            <a href="/index.html" class="skip-to-content">Skip to main content</a>
+
+           
+</article>
+</section>
 </body>
 </html>
