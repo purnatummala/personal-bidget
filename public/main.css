@@ -92,11 +92,34 @@ article.page-area {
 }
 
 @media screen and (min-width: 768px) {
-    section.container article.page-area .text-box {
-        margin: 10px;
+    .container .text-box {
+        /* Add specific styles for larger screens if needed */
     }
 }
+
 #myChart {
-    max-width: 250px;
-    max-height: 250px;
-  }
+    max-width: 400px;
+    max-height: 400px;
+}
+
+.graphs_contianer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 32px;
+}
+
+
+}
+.charts-container {
+    display: flex;
+    justify-content: space-between; /* Adjust as needed to control the spacing */
+    margin-top: 32px;
+}
+
+.chart {
+    flex: 1; /* This makes both charts take up equal space */
+    max-width: 400px; /* Adjust as needed */
+    text-align: center;
+}
+
+.
