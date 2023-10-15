@@ -69,7 +69,7 @@ section.container {
 }
 
 article.page-area {
-    max-width: 768px;
+    max-width: 2000px;
     display: inline-block;
 }
 
@@ -86,7 +86,7 @@ article.page-area {
 .container div.text-box {
     display: inline-block;
     width: 100%;
-    max-width: 340px;
+    max-width: 400px;
     text-align: justify;
     margin: 20px;
 }
